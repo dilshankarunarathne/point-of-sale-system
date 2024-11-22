@@ -1,4 +1,5 @@
-﻿namespace Billing_Sysytem
+﻿
+namespace Billing_Sysytem
 {
     partial class Login
     {
@@ -145,6 +146,11 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
